@@ -23,7 +23,7 @@ public class Program02 {
 		product.quantity = sc.nextInt();
 		
 		System.out.println();
-		System.out.println(product.name + " " + product.price + " " + product.quantity);
+		System.out.println(product);
 		
 		sc.close();
 
