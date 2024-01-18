@@ -18,7 +18,7 @@ public class Program07 {
 		double dollar = sc.nextDouble();
 		
 		System.out.println();
-		System.out.println("Amount to be paid in reais: " + CurrencyConverter.real(dollarPrice, dollar));
+		System.out.println("Amount to be paid in reais: " + CurrencyConverter.real(dollar, dollarPrice));
 		
 		sc.close();
 
