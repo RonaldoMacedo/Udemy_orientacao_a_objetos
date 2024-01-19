@@ -2,14 +2,14 @@ package entities;
 
 public class Account {
 
-	private int numero;
-	private String nome;
-	private double saldo;
+	private int numero; //number
+	private String nome; //string
+	private double saldo;// balance
 	
-	public Account(int numero, String nome, double saldo) {
+	public Account(int numero, String nome, double depositoInicial) {
 		this.numero = numero;
 		this.nome = nome;
-		this.saldo = saldo;
+		deposito(depositoInicial); //encapsulamento
 	}
 	
 	public Account(int numero, String nome) {

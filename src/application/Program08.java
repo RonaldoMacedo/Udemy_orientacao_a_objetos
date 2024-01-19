@@ -15,12 +15,12 @@ public class Program08 {
 		Account acc;
 
 		System.out.print("Entre com o número da conta: ");
-		int numero = sc.nextInt();
+		int numero = sc.nextInt(); //quebra de linha pendente
 		System.out.print("Entre com o nome: ");
 		sc.nextLine();
 		String nome = sc.nextLine();
 		System.out.print("Haverá um depósito inicial (s/n)? ");
-		char resposta = sc.nextLine().charAt(0);
+		char resposta = sc.next().charAt(0);
 		if (resposta == 's') {
 			System.out.print("Entre com o valor inicial: ");
 			double valorInicial = sc.nextDouble();
